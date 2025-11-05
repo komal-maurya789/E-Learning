@@ -1,0 +1,102 @@
+/* 🌟 General Styles */
+.html_body {
+    background-color: #f8f9fa;
+}
+
+/* 🎯 Quiz Container */
+.quiz-container {
+    width: 500px;
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* 🎯 Header */
+.quiz-container h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+/* 🕒 Timer */
+.quiz-container p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+/* 📝 Question Section */
+.question-section {
+    background: #e9ecef;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.question-section h3 {
+    font-size: 18px;
+    color: #444;
+}
+
+.question-section p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #222;
+}
+
+/* ✅ Options */
+.options {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.option {
+    display: flex;
+    align-items: center;
+    background: #f1f1f1;
+    padding: 10px;
+    border-radius: 6px;
+    width: 100%;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+.option:hover {
+    background: #d1e7ff;
+}
+
+.option input {
+    margin-right: 10px;
+}
+
+/* 🔘 Navigation Buttons */
+.navigation-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.btn {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: #0056b3;
+}
+
+.btn:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+}

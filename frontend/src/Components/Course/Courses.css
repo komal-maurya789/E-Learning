@@ -1,0 +1,148 @@
+/* General Section Styling */
+.section.event {
+    padding: 10px 20px;
+    background-color: #f8fafc;
+    text-align: center;
+  }
+  
+  .section-subtitle {
+    font-size: 18px;
+    color: #0077b6;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .h2.section-title {
+    font-size: 32px;
+    font-weight: 700;
+    color: #222;
+    margin-bottom: 40px;
+  }
+  
+  /* Grid Layout for Event Cards */
+  .grid-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+  }
+  
+  /* Event Card Styling */
+  .event-card {
+    background-color: white;
+    width: 350px;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    text-align: left;
+  }
+  
+  .event-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Image Styling */
+  .card-banner img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  /* Date Badge */
+  .badge {
+    background-color: #0077b6;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 5px 10px;
+    border-radius: 4px;
+    display: inline-block;
+    margin: 15px;
+  }
+  
+  /* Card Content */
+  .card-content {
+    padding: 20px;
+  }
+  
+  /* Address Styling */
+  .card-address {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  .card-address ion-icon {
+    color: #0077b6;
+    margin-right: 5px;
+  }
+  
+  /* Event Title */
+  .card-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #222;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .card-title:hover {
+    color: #0077b6;
+  }
+  
+  /* Price Styling */
+  .card-price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ff6600;
+    margin-bottom: 15px;
+  }
+  
+  /* Buttons Styling */
+  .btn-link, .btn-continue {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .btn-link {
+    background-color: #0077b6;
+    color: white;
+    margin-bottom: 10px;
+  }
+  
+  .btn-link:hover {
+    background-color: #005b8e;
+  }
+  
+  .btn-continue {
+    background-color: #ff6600;
+    color: white;
+  }
+  
+  .btn-continue:hover {
+    background-color: #e65c00;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .grid-list {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  

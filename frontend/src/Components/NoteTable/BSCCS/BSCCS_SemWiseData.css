@@ -1,0 +1,57 @@
+.container {
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+    font-family: "Arial", sans-serif;
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #2c3e50;
+  }
+  
+  .semester-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #f8f9fa;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .semester-table thead {
+    background: linear-gradient(45deg, #007bff, #00b4db);
+    color: white;
+  }
+  
+  .semester-table th, .semester-table td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .semester-table tbody tr:nth-child(odd) {
+    background: #e9ecef;
+  }
+  
+  .semester-table tbody tr:hover {
+    background: #d6e4ff;
+    transition: 0.3s;
+  }
+  
+  .action-btn {
+    background: #ff6b6b;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .action-btn:hover {
+    background: #e63946;
+  }
+  

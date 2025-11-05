@@ -1,0 +1,169 @@
+.result-wrapper {
+    background-color: #f8f9fa;
+}
+
+/* 🎯 Result Container */
+.result-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.result-container {
+    width: 500px;
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center !important;
+ 
+}
+
+/* 🎯 Header */
+.result-container h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+/* 📋 Result Info */
+.result-container p {
+    font-size: 18px;
+    color: #555;
+    margin: 10px 0;
+}
+
+
+
+.result-container button {
+    background: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s;
+    margin-left: 10px ;
+
+}
+
+.result-container button:hover {
+    background: #218838;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.quiz-result-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+  }
+  
+  .result-form {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  .result-form h2 {
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .result-form input {
+    width: 100%;
+    padding: 0.75rem;
+    margin: 0.5rem 0;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+  }
+  
+  .result-form button {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #1a44d7;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    margin-top: 1rem;
+    cursor: pointer;
+  }
+  
+  .result-container {
+    text-align: center;
+  }
+  
+  .certificate-wrapper {
+    position: relative;
+    width: 800px;
+    height: 600px;
+    margin-top: 2rem;
+  }
+  
+  .certificate-bg {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .certificate-text {
+    position: absolute;
+    font-family: serif;
+    color: #5c4200;
+    font-weight: bold;
+  }
+  
+  .certificate-text.name {
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 28px;
+  }
+  
+  .certificate-text.date {
+    bottom: 110px;
+    left: 100px;
+    font-size: 18px;
+  }
+  
+  .certificate-text.score {
+    bottom: 110px;
+    right: 120px;
+    font-size: 18px;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+

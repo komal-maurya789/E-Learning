@@ -1,0 +1,25 @@
+.login-container {
+    background-color: #37517e;
+    padding: 69px 0;
+    height: 100vh;
+}
+
+.login-card {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 25%;
+}
+
+.login-card h2 {
+    margin-bottom: 20px;
+}
+
+.is-invalid {
+    border-color: red;
+}
+
+.text-danger {
+    font-size: 0.875rem;
+    margin-top: 5px;
+}

@@ -1,0 +1,65 @@
+/* Container to keep all cards in a row format */
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 40px;
+  background-color: #f8fafc;
+  flex-wrap: wrap; /* Ensures responsiveness */
+}
+
+/* Basic Card Styles */
+.card {
+  background-color: #f0fbff;
+  padding: 20px;
+  width: 250px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+/* Hover Effect: Lifts all cards and adds shadow */
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
+  background-color: #00a9e0;
+  color: white;
+}
+
+/* Icon Styling */
+.icon {
+  font-size: 40px;
+  margin-bottom: 10px;
+  color: #0099cc;
+}
+
+/* Title Styling */
+h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Description Text */
+p {
+  font-size: 14px;
+  color: #666;
+}
+
+/* Ensure text turns white on hover */
+.card:hover h3, 
+.card:hover p {
+  color: white;
+}
+
+/* Responsive Design for Small Screens */
+@media (max-width: 768px) {
+  .card-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
