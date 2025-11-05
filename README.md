@@ -7,5 +7,3 @@
 <img width="1886" height="913" alt="image" src="https://github.com/user-attachments/assets/d6290163-f67c-4123-8299-dabb321411b6" />
 <img width="1759" height="907" alt="image" src="https://github.com/user-attachments/assets/d509fb21-d8ad-419a-a29d-e2f0ae149825" />
 
-<img width="1798" height="900" alt="image" src="https://github.com/user-attachments/assets/8cb67954-e4c1-4d2a-bea1-a2e04aa9fb32" />
-
